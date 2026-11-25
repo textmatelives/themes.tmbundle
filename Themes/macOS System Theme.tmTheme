@@ -237,6 +237,168 @@
 				<string>linkColor</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Anchors</string>
+			<key>scope</key>
+			<string>keyword.control.anchor.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemOrangeColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Lookarounds</string>
+			<key>scope</key>
+			<string>meta.assertion.look-ahead.regexp, meta.assertion.look-behind.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemOrangeColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Negative Lookarounds</string>
+			<key>scope</key>
+			<string>meta.assertion.negative-look-ahead.regexp, meta.assertion.negative-look-behind.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>systemOrangeColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Operators</string>
+			<key>scope</key>
+			<string>keyword.operator.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>systemPinkColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.group.regexp, punctuation.definition.character-class.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>secondaryLabelColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Group Options</string>
+			<key>scope</key>
+			<string>keyword.other.group-options.regexp, entity.name.section.group.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemTealColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Back-references</string>
+			<key>scope</key>
+			<string>keyword.other.back-reference.regexp, keyword.other.back-reference.named.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemBlueColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Back-reference Name</string>
+			<key>scope</key>
+			<string>entity.name.section.back-reference</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>systemBlueColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Character Classes</string>
+			<key>scope</key>
+			<string>constant.character.character-class.regexp, constant.other.character-class.posix.regexp, constant.other.character-class.set.regexp, constant.other.character-class.range.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemPurpleColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Escapes</string>
+			<key>scope</key>
+			<string>constant.character.escape.backslash.regexp, constant.character.numeric.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemGreenColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regexp Option Toggles</string>
+			<key>scope</key>
+			<string>keyword.other.option-toggle.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>secondaryLabelColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Format Escapes</string>
+			<key>scope</key>
+			<string>constant.character.escape.format-string, constant.other.reference.format-string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemGreenColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Format Variables</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.format-string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>systemBlueColor</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Format Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable.begin.format-string, punctuation.definition.transform.begin.format-string, punctuation.separator.transform.format-string, punctuation.definition.transform.end.format-string, punctuation.definition.condition.begin.format-string, punctuation.separator.condition.format-string, punctuation.definition.condition.end.format-string, punctuation.definition.replacement.begin.format-string, punctuation.separator.replacement.format-string, punctuation.definition.replacement.end.format-string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>secondaryLabelColor</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>64A455D4-9CF4-47C7-B484-3181471D1FD2</string>
