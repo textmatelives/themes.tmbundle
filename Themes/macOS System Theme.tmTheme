@@ -276,7 +276,7 @@
 			<key>name</key>
 			<string>Regexp Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.regexp</string>
+			<string>keyword.operator.or.regexp, keyword.operator.quantifier.regexp, keyword.operator.negation.regexp, keyword.operator.intersection.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
